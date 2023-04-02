@@ -1,0 +1,184 @@
+*{
+	margin: 0;
+	font-family: helvetica;
+}
+input{
+	font-size: 22px;
+}
+a{
+	text-decoration: none;
+	color: #4D4B4B;
+}
+footer{
+	width: auto;
+	height: 50px;
+	background-color: whitesmoke;
+	text-align: center;
+	font-size: 25px;
+	border-top: 3px solid #ADACAC;
+	padding-top: 20px;
+	background-color: #C8C7C7;	
+	margin-top: 210px;
+}
+#header{
+	position: sticky; top: 0;
+	width: auto;
+	height: 65px;
+	background-color: whitesmoke;
+	text-align: left;
+	padding-top: 35px;
+	box-shadow: 0 4px 0px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+	color: #154360;
+}
+#headerp1{
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: -15px;
+	margin-left: 30px;
+}
+.headerbutton{
+	float: right;
+	font-family: sans-serif;
+	font-size: 28px;
+	width: 120px;
+	height: 40px;
+	margin-right: 35px;
+	margin-top: -45px;
+	background-image: linear-gradient(#ED854E, #FF3702);
+	border: none;
+	color: white;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.headerbutton:hover{
+	background: black;
+	color: yellow;
+}
+#content{
+	width: 70%;
+	height: auto;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 100px;
+}
+#contentpheader{
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+#p1{
+	margin-top: 10px;
+	font-size: 17px;
+	color: #444444;
+}
+#hr1{
+	color: #BBBBBB; 
+	margin-top: 35px;
+	margin-bottom: 35px;	
+}
+#firstnameinput{
+	margin-left: 100px;
+	width: 220px;
+	height: 40px;
+}
+#lastnameinput{
+	width: 200px;
+	height: 40px;
+	margin-left: 25px;
+}
+#info{
+	font-size: 25px;
+	font-weight: bold;
+	color: #777777;
+	margin-top: 40px;
+}
+#tdName{
+	color: #777777;
+	margin-left: 251px;
+	margin-top: -11px;
+}
+#tdNamelast{
+	color: #777777;
+	margin-left: 505px;
+	margin-top: -19px;
+}
+#emailInput{
+	width: 454px;
+	height: 40px;
+	margin-left: 93px;
+}
+#passwordInput{
+	height: 40px;
+	width: 250px;
+	margin-left: 49.5px;
+	margin-bottom: 50px;
+}
+#labelGrade{
+	font-size: 25px;
+	font-weight: bold;
+	color: #777777;
+	margin-right: 62px;
+}
+#grade{
+	width: 240px;
+	height: 37px;
+	font-size: 20px;
+}
+#positionRadio{
+	margin-left: 257px;
+	margin-bottom: 15px;
+}
+#positionRadio2{
+	margin-left: 248px;
+	margin-bottom: 15px;
+}
+#radioDiv{
+	margin-top: -23px;
+}
+#radioLabel{
+	font-size: 18px;
+}
+#heightInput{
+	width: 290px;
+	height: 40px;
+	margin-left: 171px;
+}
+#heightlabel{
+	color: #777777;
+	margin-top: 10px;
+	margin-left: 249px;
+}
+#weightlabel{
+	color: #777777;
+	margin-top: 10px;
+	margin-left: 252px;
+}
+#weightInput{
+	width: 290px;
+	height: 40px;
+	margin-left: 167px;
+}
+textarea{
+	padding: 10px;
+	font-size: 17px;
+	margin-top: 30px;
+	width: 700px;
+	height: 200px;
+}
+.register{
+	color: white;
+	font-size: 30px;
+	padding-left: 23px;
+	padding-right: 23px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-image: linear-gradient(#023C79, #032140);
+	border-radius: 5px;	
+	border: none;
+	margin-top: 50px;
+	position: absolute; left: 50%;
+	transform: translateX(-50%);
+}
+#color{
+	color: white;
+}

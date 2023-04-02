@@ -1,0 +1,134 @@
+*{
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.header{
+	position: sticky; top: 0;
+	width: auto;
+	height: 102px;
+	background-color: white;
+	border-bottom: 1px solid #AAAAAA;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	font-family: sans-serif;
+	letter-spacing: 4px;
+	z-index: 1;
+}
+.nav{
+	text-decoration: none;
+	margin-bottom: 0px;
+	font-size: 20px;
+	margin-right: 40px;
+	color: #5E5E5E;
+}
+.navmain{
+	margin-top: auto;	
+	margin-bottom: 7px;
+}
+.navmini{
+position: absolute; right: 3%; top: 21%;
+}
+.childnav{
+	margin-right: 13px;
+	word-spacing: 0px;
+	letter-spacing: 2px;
+	text-decoration: none;
+	color: #5E5E5E;
+	font-size: 10px;
+}
+.WOBA{
+	width: 80px;
+	height: 80px;
+	position: absolute; top: -3%; left: 50%;
+	transform: translateX(-50%);
+}
+
+/*------------------------------------------------------------------------------------------------------------*/
+
+.body{
+	width: 100%;
+	height: 700px;
+	background-color: white;
+	text-align: center;
+	font-family: sans-serif;
+}
+.bodyChild{
+	position: absolute; top: 50%; left: 50%;
+	transform: translateX(-50%);
+	line-height: 40px;
+}
+#body1{
+	font-size: 17px;
+	letter-spacing: 4px;
+}
+#body3{
+	color: white;
+	margin-top: 20px;
+	width: 300px;
+	height: 45px;
+	background-color: black;
+	font-size: 15px;
+}
+
+/*------------------------------------------------------------------------------------------------------------*/
+
+.Footer{
+	width: auto;
+	height: 340px;
+	font-family: sans-serif;
+	letter-spacing: 2px;
+	margin-top: 70px;
+	border-top: 1.4px solid #B8B8B8;
+	padding-top: 40px;
+}
+#footer > p:first-child { 
+	float: left; 
+	text-align: left; 
+	width: 28.3%;	
+	padding-left: 5%;
+	padding-top: 15px; 
+} 
+#footer > p:nth-child(2) { 
+	float: left; 
+	text-align: left; 
+	width: 21.4%; 
+	padding-left: 12%;
+	padding-top: 15px; 
+} 
+#footer > p:last-child { 
+	float: right; 
+	text-align: left; 
+	width: 28.3%;
+	padding-left: 5%; 
+	padding-top: 15px; 
+}
+#headFooter{
+	font-size: 17px;
+	color: #3E3E3E;
+	line-height: 50px;
+}
+#tailFooter{
+	font-size: 12px;
+	color: #828282;
+	line-height: 40px;	
+}
+#tailFooterNEW{
+	font-size: 12px;
+	color: #828282;
+	line-height: 12%;
+	letter-spacing: 0.5px;
+}
+#special{
+	position: absolute; left: 50%; bottom: -101%;
+	transform: translateX(-50%);
+	font-size: 10px;
+	letter-spacing: 0.5px;
+}
+.payments{
+	width: 450px;
+	position: absolute; top: 178%; right: 2%;
+}

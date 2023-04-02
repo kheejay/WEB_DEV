@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="register.css">
+</head>
+<body>
+	<div id="header">
+		<p id="headerp1">Ballers Club Registration Form</p>
+		<a href="login.html"><button class="headerbutton">Log in</button></a>
+	</div>
+
+	<div id="content">
+		<form>
+			<p id="contentpheader">Club Registration Form</p>
+			<p id="p1">Register for leagues, tournaments, and events!</p>
+			<hr id="hr1">
+			<p id="info">Player Name<input id="firstnameinput" type="text"><input id="lastnameinput" type="text"></p><br>
+			<tr><p id="tdName">First Name</p> <p id="tdNamelast">Last Name</p></tr>
+			<p id="info">Player E-mail<input id="emailInput" type="text" placeholder="Email"></p>
+			<p id="info">Log in Password<input id="passwordInput" type="Password" placeholder="atleast 8 characters"></p>
+			<label for="grade" id="labelGrade">Expertise Level</label>
+			<select name="grade" id="grade">
+				<option value="">Please Select</option>
+			    <option value="Novice">Novice</option>
+			    <option value="Rookie">Rookie</option>
+			    <option value="Intermediate">Intermediate</option>
+			    <option value="Veteran">Veteran</option>
+			    <option value="Expert">Expert</option>
+			</select>
+				<p id="info">Position</p>
+				<div id="radioDiv">
+  				  <input type="radio" name="position" id="positionRadio">
+				  <label id="radioLabel">Point Guard</label><br>
+				  <input type="radio" name="position" id="positionRadio2">
+				  <label id="radioLabel">Shooting Guard</label><br>
+				  <input type="radio" name="position" id="positionRadio2">
+				  <label id="radioLabel">Small Forward</label><br>
+				  <input type="radio" name="position" id="positionRadio">
+				  <label id="radioLabel">Power Forward</label><br>
+				  <input type="radio" name="position" id="positionRadio2">
+				  <label id="radioLabel">Center</label><br>
+				  <input type="radio" name="position" id="positionRadio2">
+				  <label id="radioLabel">Don't Know</label><br>
+				</div>
+				<p id="info">Height<input id="heightInput" type="text" placeholder="5/'6"></p>
+				<p id="heightlabel">Height in inches</p>
+				<p id="info">Weight<input id="weightInput" type="text" placeholder="115"></p>
+				<p id="weightlabel">Weight in lbs</p>
+				<p id="info">Commments or Questions<br><textarea></textarea></p>
+				<a class="register" href="content.html">Register</a>
+		</form>
+	</div>
+	<footer><a href="../main.html">Back to Homepage</a></footer>
+</body>
+</html>
