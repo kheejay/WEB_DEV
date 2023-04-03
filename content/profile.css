@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	font-family: sans-serif;
+}
+.container{
+	width: 70%;
+	height: 1400px;
+	position: absolute; 
+	left: 50%;
+	transform: translateX(-50%);
+	padding-top: 50px;
+	text-align: center;
+	box-shadow: 0px 2px 7px 0px #ACACAC;
+}
+.head{
+	font-size: 50px;
+	width: 70%;
+	height: auto;
+	letter-spacing: 1px;
+	position: absolute; 
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	font-family: fantasy;
+	line-height: 50px;
+}
+.bio{
+	font-size: 20px;
+}
+img{
+	margin-top: 20px;
+	width: 300px;
+	border-radius: 50%;
+	background: gray;
+	border: 1px solid #757575;
+}
+.about{
+	font-size: 40px;
+	width: 100%;
+	height: auto;
+	background-color: #2E4087;
+	letter-spacing: 1px;
+	position: absolute; 
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	line-height: 40px;
+	margin-top: 50px;
+	padding: 40px 0px 40px 0px;
+	color: #fff;
+	font-weight: bold;
+}
+.aboutme{
+	margin-top: 20px;
+	font-size: 17px;
+	font-weight: normal;
+	line-height: 26px;
+	padding: 0px 50px 0px 50px;
+}
+.player{
+	font-size: 40px;
+	width: 100%;
+	height: auto;
+	letter-spacing: 1px; 
+	position: absolute; 
+	left: 50%
+	transform: translateX(-50%);
+	text-align: center;
+	line-height: 30px;
+	margin-top: 310px;
+	padding-top: 30px;
+	font-weight: bold;
+}
+.big{
+	font-size: 25px;
+	margin-top: 20px;	
+}
+.little{
+	font-size: 19px;
+	font-weight: normal;
+	margin-top: 7.7px;
+	color: #3D3D3D;
+}
